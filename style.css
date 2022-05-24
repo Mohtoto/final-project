@@ -74,7 +74,7 @@ ul{
     max-width: 100%;
 }
 
-/* 
+/*
 NAVIGATION
 */
 
@@ -467,4 +467,34 @@ HEADER
     line-height: 1.5;
     opacity: 0.7;
 }
+
+.pricing_desc{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.pricing__para{
+
+    
+    line-height: 2;
+   --tw-text-opacity: 1;
+   text-align: center;
+   margin-top: 16px ;
+   max-width: 36rem;
+  
+}
+
+.pricing__header{
+
+    font-size: 48px;
+    letter-spacing: 0.025em;
+   
+    
+}
+
+
 
