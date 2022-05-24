@@ -340,15 +340,22 @@ HEADER
 .starting__desc{
 
     display: flex;
+    max-width: 100%;
 }
 
 .start__logo{
 
    
+    max-width: 100%;
+      
     
-    margin: 70px;
-    max-width: 50%;
-   
+}
+
+.start__logo--img{
+
+    width: 100%;
+    margin-top: 60px;
+    padding: 24px;
     
 }
 
@@ -364,7 +371,9 @@ HEADER
 .desc__info{
 
     width: 50%;
-    margin-left: 24px;
+   padding-left:  48px; 
+   
+   
 }
    
 .purple1{
@@ -394,17 +403,68 @@ HEADER
 .desc__h3{
 
     padding-bottom: 24px;
+    font-size: 24px;
     
 }
 
 .desc__para{
 
-    max-width: 24rem;
+   
+    max-width: 20rem;
+    line-height: 2;
+   
+    --tw-text-opacity: 1;
+    
+    
 }
 
 
 .desc__container{
 
     padding-bottom: 24px;
+}
+
+
+
+.prince__title{
+
+    font-size: 48px;
+    margin: 24px 0 24px 0 ;
+}
+
+.princes__features{
+
+    display: flex;
+}
+
+
+.princne__content{
+
+        
+        display: flex;
+}
+
+.prince__info{
+
+    width: 50%;
+}
+
+.prince__logo{
+
+    width: 50%;
+}
+
+.prince__logo--img{
+
+    width: 100%;
+}
+
+
+
+.prince__para{
+
+    margin: 24px 0 24px 0 ;
+    line-height: 1.5;
+    opacity: 0.7;
 }
 
