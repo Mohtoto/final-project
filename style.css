@@ -496,5 +496,41 @@ HEADER
     
 }
 
+.pricing__plans{
+
+ margin: 48px;
+ 
+}
+
+.pricing__plan{
+
+    display: flex;
+    flex-direction: column;
+}
 
 
+.pricing__features{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.pricing__plans-box{
+
+    border: 2px solid #000;
+}
+
+.span__name , .span__price , .span__duration{
+
+    font-size: 38px;
+}
+
+
+.plans{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
