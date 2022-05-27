@@ -13,6 +13,7 @@
 span{
 
     color: #6415FF;
+    letter-spacing: 0.025em;
 
 }
 
@@ -541,8 +542,7 @@ HEADER
 
     border: 2px solid #000;
     padding: 48px;
-    background-color: 
-    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    
     
 }
 
@@ -590,5 +590,76 @@ HEADER
 }
 
 
+.Testimonials__info{
+
+    display: flex;
+   
+}
+
+.Testimonials__desc{
+
+     display: flex;
+     flex-direction: column;
+     width: 60%;
+     margin-left: 48px;
+    
+     
+}
+
+
+.test__wrapper{
+
+
+    width: 40%;
+   
+    margin-right: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.test__wrapper--img{
+
+    max-width: 100%;
+    height: auto;
+   
+    
+
+}
+
+
+.Testimonials__desc2{
+
+    margin-top: 24px;
+}
+
+
+.Test__header2{
+
+    margin: 24px 0 24px 0;
+}
+
+.Test__para2{
+
+    font-size: 16px;
+    opacity: 0.7;
+    max-width: 35rem;
+}
+
+.Test__header1{
+
+    margin: 24px 0 24px 0;
+    font-size: 48px;
+
+}
+
+.Test__para1{
+
+    font-size: 16px;
+    opacity: 0.7;
+    max-width: 35rem;
+
+}
 
 
