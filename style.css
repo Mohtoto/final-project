@@ -163,7 +163,24 @@ HEADER
     justify-content: center;
     width: 40%;
     margin: 0 auto;
+    animation: animate-header-desc 500ms 200ms backwards;
+   
     
+}
+
+@keyframes animate-header-desc{
+    
+        0%{
+            transform: scale(0);
+        }
+        80%{
+            transform: scale(1.1);
+        }
+        100%{
+            transform: scale(1);
+        }
+    
+
 }
 
 .header__row{
@@ -660,6 +677,84 @@ HEADER
     opacity: 0.7;
     max-width: 35rem;
 
+
+
 }
 
 
+.test__moh{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.20);
+    margin-bottom: 28px;
+    animation: animate-profile-picture 800ms 200ms backwards;
+   
+
+    margin: 24px 0 24px 0;
+    
+
+}
+
+.test__moh--img{
+
+    width: 100%;
+    transform: scale(1.10);
+
+}
+
+
+@keyframes animate-profile-picture{
+    0%{
+        transform: scale(0);
+    }
+    80%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.img__container-info{
+
+    display: flex;
+   
+
+}
+
+.img__container-names{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 24px;
+    animation: h5-names 800ms 200ms backwards ;
+    
+}
+
+.h5__opacity{
+
+    opacity: 0.5;
+    margin-top: 4px;
+}
+
+@keyframes h5-names {
+
+
+
+    0%{
+        transform: scale(0);
+    }
+    80%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
