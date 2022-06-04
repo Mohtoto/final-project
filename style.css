@@ -7,6 +7,7 @@
     margin:0;
     box-sizing: border-box;
     font-family: 'Roboto',sans-serif;
+    border: 0 solid #e5e7eb;
 
 }
 
@@ -512,7 +513,7 @@ PLANS
     width: 100%;
     margin: 1rem;
    
-    
+   
     
     
     
@@ -520,21 +521,35 @@ PLANS
 }
 
 
-.price{
+.price__header{
 
     background-color: #fff;
     box-shadow: 0 7px 30px rgba(52, 31, 97, 0.1);
     padding: 2rem;
     flex-grow: 1;
     flex-basis: 0;
+    
     max-width: 275px;
     border-radius: 8px;
     text-align: center;
     font-weight: 700;
+    position: relative;
+    margin: 24px;
     
+
    
 }
 
+
+.price{
+
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
 
 
 .dollar-sign{
@@ -546,31 +561,47 @@ PLANS
 
     
     opacity: 0.45;
+    margin-bottom: 2rem;
 }
 
 .per-month2{
 
     opacity: 0.9;
+    margin-bottom: 2rem;
 }
 
 .divider{
 
     height: 1px;
-    width: 100%;
-    background-color: black;
-    position: relative;
+   width: 100%;
+    background-color: rgba(0, 0, 0 , .2);
+    position: absolute;
+   
+    
+   
+   
+    
+
 }
+
+
+.divider__2{
+
+    background-color: rgba(255, 255, 255, .2);
+    
+}
+
+
 
 
 .popular{
 
     background-color: #6030b1;
+
     color: #fff;
     box-shadow: 0 7px 30px rgba(52, 13, 135, 0.3);
-    margin-top: -1.5rem;
-    padding-top: 3.5rem;
-    margin-bottom: -1.5rem;
-    padding-bottom: 3.5rem;
+   
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);;
 }
 
 
@@ -590,23 +621,107 @@ PLANS
 
 }
 
+.span{
+
+    font-size: 16px;
+
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+
+.span__1{
+
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+
+.btn{
+
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.09rem;
+    box-shadow: 0 7px 30px rgba(52, 13, 135, 0.3);
+   
+    
+    
+
+}
 
 
 
 
 
+.btn__1{
+
+    
+    background-image:  linear-gradient(100deg, rgb(56, 178, 172) 0%, rgb(26, 199, 184) 100%);
+    --tw-text-opacity: 1;
+    color: rgba(247,250,252,var(--tw-text-opacity));
+    transition-duration: 300ms;
+
+    
+}
+
+
+.btn__2{
+
+    color: #6030b1;
+}
+
+
+.btn__3{
+
+    background-image: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    --tw-text-opacity: 1;
+    color: rgba(247,250,252,var(--tw-text-opacity));
+    transition-duration: 300ms;
+}
 
 
 
 
+.btn__1:hover , .btn__2:hover, .btn__3:hover{
+
+    box-shadow: 0 7px 30px rgba(52, 13, 135, 0.3);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 800ms;
+
+}
 
 
+.divider__top{
 
+    height: 12px;
+    background-image:  linear-gradient(100deg, rgb(56, 178, 172) 0%, rgb(26, 199, 184) 100%);
+   
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 0.5rem;
+    border-top-left-radius: 00.5rem;
+    border-top-right-radius: 00.5rem;
+    
+    
+    position: absolute;
 
+    
+ 
+    
+}
 
+.divider__top-1{
 
-
-
+    background-image:linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%); 
+}
 
 /*
 
