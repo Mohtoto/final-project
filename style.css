@@ -373,10 +373,15 @@ HEADER
     padding-bottom: 24px;
 }
 
-.quality__img{
+.quality__img--wrapper{
 
     width: 50%;
-    max-width: 100%;
+}
+
+.quality__img{
+
+    width: 100%;
+   
     margin: 0 auto;
 }
 
@@ -789,8 +794,8 @@ Testtimonals
 
 .test__wrapper--img{
 
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    
    
     
 
@@ -931,6 +936,7 @@ Testtimonals
     color: #fff;
    
     justify-content: space-between;
+    flex-wrap: wrap;
    
 
 
@@ -959,6 +965,7 @@ Testtimonals
 
     color: rgb(214, 204, 204);
     text-decoration: none;
+    width: calc(100%/5);
    
    
    
